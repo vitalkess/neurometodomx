@@ -10,7 +10,7 @@ export const StickyHeader: React.FC = () => {
         </div>
         <div className="flex items-center gap-1.5 bg-sage-light text-sage-800 px-3 py-1.5 rounded-full text-xs font-bold border border-sage/20">
           <Clock size={14} className="text-sage" />
-          <span className="text-sage">Акція -70%</span>
+          <span className="text-sage">Oferta -70%</span>
         </div>
       </div>
     </header>

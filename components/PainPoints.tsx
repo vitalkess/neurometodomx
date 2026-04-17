@@ -4,20 +4,20 @@ import { XCircle } from 'lucide-react';
 export const PainPoints: React.FC = () => {
   const pains = [
     {
-      title: "Nie słyszy za pierwszym razem",
-      desc: "Trzeba powtarzać prośbę 10 razy."
+      title: "No escucha a la primera",
+      desc: "Hay que repetir las instrucciones 10 veces."
     },
     {
-      title: "Nie może usiedzieć w miejscu",
-      desc: "Nie może wysiedzieć przy lekcjach nawet 5 minut."
+      title: "No puede quedarse quieto",
+      desc: "No puede sentarse a hacer las tareas ni 5 minutos."
     },
     {
-      title: "Myli litery",
-      desc: "Pisze w lustrzanym odbiciu, opuszcza sylaby lub ma brzydki charakter pisma."
+      title: "Confunde las letras",
+      desc: "Escribe en espejo, omite sílabas o tiene mala letra."
     },
     {
-      title: "Szybko wybucha",
-      desc: "Histeria bez powodu, trudno się uspokoić."
+      title: "Se descontrola fácilmente",
+      desc: "Berrinches sin motivo, difícil de calmar."
     }
   ];
 
@@ -25,7 +25,7 @@ export const PainPoints: React.FC = () => {
     <section className="py-12 px-4 bg-white max-w-lg mx-auto">
       <div className="text-center mb-8">
         <h2 className="text-2xl font-extrabold text-navy mt-3">
-          Czy rozpoznajesz swoje dziecko?
+          ¿Reconoces a tu hijo?
         </h2>
       </div>
 
@@ -43,8 +43,8 @@ export const PainPoints: React.FC = () => {
 
       <div className="mt-8 p-6 bg-cream rounded-2xl border border-gold/20 text-center relative overflow-hidden">
         <p className="text-navy font-medium leading-relaxed relative z-10">
-          To <span className="text-terracotta font-extrabold">nie wina dziecka</span>. 
-          <br/>Jego mózg po prostu potrzebuje odpowiedniego „paliwa” i treningu.
+          No es <span className="text-terracotta font-extrabold">culpa del niño</span>.
+          <br/>Su cerebro simplemente necesita el «combustible» y entrenamiento adecuados.
         </p>
       </div>
     </section>

@@ -15,25 +15,25 @@ export const PurchaseModal: React.FC<PurchaseModalProps> = ({ isOpen, onClose })
     e.preventDefault();
     // Here you would typically integrate with your payment provider (WayForPay, LiqPay, Stripe)
     // passing the email as a custom field.
-    alert(`Przechodzimy do płatności. Książka zostanie wysłana na: ${email}`);
+    alert(`Procedemos al pago. El libro será enviado a: ${email}`);
     onClose();
   };
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
       {/* Backdrop */}
-      <div 
+      <div
         className="absolute inset-0 bg-navy/60 backdrop-blur-sm transition-opacity"
         onClick={onClose}
       ></div>
 
       {/* Modal Content */}
       <div className="relative bg-white rounded-3xl shadow-2xl w-full max-w-md overflow-hidden animate-in fade-in zoom-in-95 duration-200">
-        
+
         {/* Header decoration */}
         <div className="bg-terracotta h-2 w-full"></div>
-        
-        <button 
+
+        <button
           onClick={onClose}
           className="absolute top-4 right-4 text-navy/40 hover:text-navy transition-colors p-1"
         >
@@ -47,15 +47,15 @@ export const PurchaseModal: React.FC<PurchaseModalProps> = ({ isOpen, onClose })
           </div>
 
           <h3 className="text-2xl font-extrabold text-navy mb-2">
-            Gdzie wysłać książkę?
+            ¿A dónde enviamos el libro?
           </h3>
           <p className="text-navy/60 mb-8 font-medium leading-relaxed text-sm">
-            Wpisz swój email, aby uzyskać dostęp do pliku PDF i dodatkowych materiałów natychmiast po opłaceniu.
+            Ingresa tu correo para obtener acceso al archivo PDF y materiales adicionales inmediatamente después del pago.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="relative text-left">
-              <label htmlFor="email" className="sr-only">Twój Email</label>
+              <label htmlFor="email" className="sr-only">Tu correo electrónico</label>
               <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                 <Mail className="h-5 w-5 text-navy/30" />
               </div>
@@ -64,24 +64,24 @@ export const PurchaseModal: React.FC<PurchaseModalProps> = ({ isOpen, onClose })
                 id="email"
                 required
                 className="block w-full pl-11 pr-4 py-4 bg-sand-light border-2 border-transparent focus:border-terracotta/50 focus:bg-white rounded-xl text-navy placeholder-navy/40 font-medium transition-all outline-none"
-                placeholder="example@gmail.com"
+                placeholder="ejemplo@gmail.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
 
-            <button 
+            <button
               type="submit"
               className="w-full bg-terracotta hover:bg-terracotta-dark text-white font-bold py-4 px-6 rounded-xl shadow-lg shadow-terracotta/20 flex items-center justify-center gap-2 transition-all transform active:scale-95"
             >
-              <span>Zapłać 47 zł</span>
+              <span>Pagar $139 MXN</span>
               <ArrowRight size={20} className="opacity-80" />
             </button>
           </form>
 
           <div className="mt-6 flex items-center justify-center gap-2 text-xs text-navy/40 font-medium">
             <Lock size={12} />
-            <span>Twoje dane są bezpieczne. Bez spamu.</span>
+            <span>Tus datos están seguros. Sin spam.</span>
           </div>
         </div>
       </div>

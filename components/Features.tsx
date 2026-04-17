@@ -5,11 +5,11 @@ export const Features: React.FC = () => {
   return (
     <section className="py-12 px-4 bg-sage-light max-w-lg mx-auto border-t border-gold/10">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-extrabold text-navy">Co jest w środku?</h2>
+        <h2 className="text-3xl font-extrabold text-navy">¿Qué hay adentro?</h2>
       </div>
 
       <div className="space-y-6">
-        
+
         {/* Part 1 */}
         <div className="bg-white rounded-2xl p-6 shadow-sm border border-terracotta/10">
           <div className="flex items-center gap-4 mb-4">
@@ -17,22 +17,22 @@ export const Features: React.FC = () => {
               <Move size={24} strokeWidth={2.5} />
             </div>
             <div>
-                <h3 className="text-xl font-bold text-navy leading-tight">Część 1. Neurogry na uwagę i energię</h3>
-                <span className="text-sm font-bold text-terracotta">(52 gry ruchowe)</span>
+                <h3 className="text-xl font-bold text-navy leading-tight">Parte 1. Neurojuegos para atención y energía</h3>
+                <span className="text-sm font-bold text-terracotta">(52 juegos de movimiento)</span>
             </div>
           </div>
           <ul className="space-y-3 text-navy/80 mb-4 pl-1">
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-terracotta mt-2 shrink-0"></div>
-              <span><strong>Co robimy:</strong> Gry ruchowe, aby „zrestartować” mózg i złagodzić napięcie.</span>
+              <span><strong>Qué hacemos:</strong> Juegos de movimiento para «reiniciar» el cerebro y aliviar la tensión.</span>
             </li>
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-terracotta mt-2 shrink-0"></div>
-              <span><strong>Topowe ćwiczenia:</strong> „Ucho-Nos”, „Cisza-Szept-Krzyk”, „Cztery żywioły”.</span>
+              <span><strong>Ejercicios destacados:</strong> «Oreja-Nariz», «Silencio-Susurro-Grito», «Los cuatro elementos».</span>
             </li>
           </ul>
           <div className="bg-terracotta/5 p-3 rounded-lg text-sm text-terracotta font-semibold border border-terracotta/10">
-            Rezultat: Dziecko uczy się słyszeć polecenia za pierwszym razem i kontrolować swoje ciało.
+            Resultado: El niño aprende a escuchar instrucciones a la primera y controlar su cuerpo.
           </div>
         </div>
 
@@ -43,22 +43,22 @@ export const Features: React.FC = () => {
               <BrainCircuit size={24} strokeWidth={2.5} />
             </div>
             <div>
-                <h3 className="text-xl font-bold text-navy leading-tight">Część 2. Rozwój poznawczy</h3>
-                <span className="text-sm font-bold text-navy/60">(29 gier logicznych)</span>
+                <h3 className="text-xl font-bold text-navy leading-tight">Parte 2. Desarrollo cognitivo</h3>
+                <span className="text-sm font-bold text-navy/60">(29 juegos lógicos)</span>
             </div>
           </div>
           <ul className="space-y-3 text-navy/80 mb-4 pl-1">
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-gold mt-2 shrink-0"></div>
-              <span><strong>Co robimy:</strong> Zadania na myślenie przestrzenne, koncentrację i pamięć.</span>
+              <span><strong>Qué hacemos:</strong> Tareas de pensamiento espacial, concentración y memoria.</span>
             </li>
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-gold mt-2 shrink-0"></div>
-              <span><strong>Topowe gry:</strong> „Zakazana liczba”, „Chrząszcz” (orientacja w kratkach), „Co zmieniło się na stole?”.</span>
+              <span><strong>Juegos destacados:</strong> «El número prohibido», «El escarabajo» (orientación en cuadrículas), «¿Qué cambió en la mesa?».</span>
             </li>
           </ul>
           <div className="bg-sand/20 p-3 rounded-lg text-sm text-navy font-semibold border border-gold/20">
-            Rezultat: Dziecko łatwiej zapamiętuje wiersze, materiał szkolny i staje się bardziej uważne.
+            Resultado: El niño memoriza poemas y contenido escolar más fácilmente y se vuelve más atento.
           </div>
         </div>
 
@@ -69,22 +69,22 @@ export const Features: React.FC = () => {
               <Activity size={24} strokeWidth={2.5} />
             </div>
              <div>
-                <h3 className="text-xl font-bold text-navy leading-tight">Część 3. Rozciąganie i Ciało</h3>
-                <span className="text-sm font-bold text-sage">(10 technik relaksacyjnych)</span>
+                <h3 className="text-xl font-bold text-navy leading-tight">Parte 3. Estiramiento y Cuerpo</h3>
+                <span className="text-sm font-bold text-sage">(10 técnicas de relajación)</span>
             </div>
           </div>
           <ul className="space-y-3 text-navy/80 mb-4 pl-1">
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-sage mt-2 shrink-0"></div>
-              <span><strong>Co robimy:</strong> Specjalne pozycje do usuwania napięć mięśniowych.</span>
+              <span><strong>Qué hacemos:</strong> Posiciones especiales para eliminar la tensión muscular.</span>
             </li>
              <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-sage mt-2 shrink-0"></div>
-              <span><strong>Topowe ćwiczenia:</strong> „Kobra”, „Meduza”, „Drzewo”.</span>
+              <span><strong>Ejercicios destacados:</strong> «La Cobra», «La Medusa», «El Árbol».</span>
             </li>
           </ul>
           <div className="bg-sage-light p-3 rounded-lg text-sm text-sage font-semibold border border-sage/20">
-            Rezultat: Uspokaja układ nerwowy po siedzeniu w ławce lub przy telefonie.
+            Resultado: Calma el sistema nervioso después de estar sentado en el pupitre o con el teléfono.
           </div>
         </div>
 
@@ -95,22 +95,22 @@ export const Features: React.FC = () => {
               <Wind size={24} strokeWidth={2.5} />
             </div>
             <div>
-                <h3 className="text-xl font-bold text-navy leading-tight">Część 4. Ćwiczenia oddechowe (Antystres)</h3>
-                <span className="text-sm font-bold text-navy/60">(26 praktyk oddechowych)</span>
+                <h3 className="text-xl font-bold text-navy leading-tight">Parte 4. Ejercicios de respiración (Antiestrés)</h3>
+                <span className="text-sm font-bold text-navy/60">(26 prácticas de respiración)</span>
             </div>
           </div>
           <ul className="space-y-3 text-navy/80 mb-4 pl-1">
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-navy mt-2 shrink-0"></div>
-              <span><strong>Co robimy:</strong> Techniki nasycania mózgu tlenem i kontroli emocjonalnej.</span>
+              <span><strong>Qué hacemos:</strong> Técnicas para oxigenar el cerebro y controlar las emociones.</span>
             </li>
              <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-navy mt-2 shrink-0"></div>
-              <span><strong>Topowe ćwiczenia:</strong> „Świeczka”, „Balonik”, „Oddychanie nosem”.</span>
+              <span><strong>Ejercicios destacados:</strong> «La Velita», «El Globo», «Respiración nasal».</span>
             </li>
           </ul>
            <div className="bg-navy/5 p-3 rounded-lg text-sm text-navy font-semibold border border-navy/10">
-            Rezultat: Pomaga dziecku szybko uspokoić się podczas histerii lub przed snem.
+            Resultado: Ayuda al niño a calmarse rápidamente durante un berrinche o antes de dormir.
           </div>
         </div>
 
@@ -124,22 +124,22 @@ export const Features: React.FC = () => {
               <Gift size={24} strokeWidth={2.5} />
             </div>
             <div>
-                 <h3 className="text-xl font-bold text-navy leading-tight">BONUS: Zeszyty ćwiczeń</h3>
-                 <span className="text-sm font-bold text-navy/60">(50+ stron zadań)</span>
+                 <h3 className="text-xl font-bold text-navy leading-tight">BONO: Cuadernos de ejercicios</h3>
+                 <span className="text-sm font-bold text-navy/60">(50+ páginas de tareas)</span>
             </div>
           </div>
           <ul className="space-y-3 text-navy/80 mb-4 pl-1 relative z-10">
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-navy mt-2 shrink-0"></div>
-              <span><strong>Grafomotoryka:</strong> „Rysowanie obiema rękami” (synchronizuje półkule!).</span>
+              <span><strong>Grafomotricidad:</strong> «Dibujo con ambas manos» (¡sincroniza los hemisferios!).</span>
             </li>
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-navy mt-2 shrink-0"></div>
-              <span><strong>Lego-kodowanie:</strong> Gotowe schematy do rozwoju logiki poprzez klocki.</span>
+              <span><strong>Lego-codificación:</strong> Esquemas listos para desarrollar la lógica a través de bloques.</span>
             </li>
             <li className="flex gap-3 text-sm items-start">
                <div className="w-1.5 h-1.5 rounded-full bg-navy mt-2 shrink-0"></div>
-              <span><strong>Rysowanie lustrzane</strong> i pixel-art („Śmieszne kwadraty”).</span>
+              <span><strong>Dibujo en espejo</strong> y pixel-art («Cuadros divertidos»).</span>
             </li>
           </ul>
         </div>
