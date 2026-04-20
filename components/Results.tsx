@@ -28,7 +28,7 @@ export const Results: React.FC = () => {
           </div>
           <div>
             <h3 className="font-bold text-navy text-lg">Desaparecerán los berrinches</h3>
-            <p className="text-navy/70 mt-1">Ejercicios de respiración (p. ej., «Soplar la velita»).</p>
+            <p className="text-navy/70 mt-1">Ejercicios de respiración (p. ej., "Soplar la velita").</p>
           </div>
         </div>
 

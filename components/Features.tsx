@@ -28,7 +28,7 @@ export const Features: React.FC = () => {
             </li>
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-terracotta mt-2 shrink-0"></div>
-              <span><strong>Ejercicios destacados:</strong> «Oreja-Nariz», «Silencio-Susurro-Grito», «Los cuatro elementos».</span>
+              <span><strong>Ejercicios destacados:</strong> "Oreja-Nariz", "Silencio-Susurro-Grito", "Los cuatro elementos".</span>
             </li>
           </ul>
           <div className="bg-terracotta/5 p-3 rounded-lg text-sm text-terracotta font-semibold border border-terracotta/10">
@@ -54,7 +54,7 @@ export const Features: React.FC = () => {
             </li>
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-gold mt-2 shrink-0"></div>
-              <span><strong>Juegos destacados:</strong> «El número prohibido», «El escarabajo» (orientación en cuadrículas), «¿Qué cambió en la mesa?».</span>
+              <span><strong>Juegos destacados:</strong> "El número prohibido", "El escarabajo" (orientación en cuadrículas), "¿Qué cambió en la mesa?".</span>
             </li>
           </ul>
           <div className="bg-sand/20 p-3 rounded-lg text-sm text-navy font-semibold border border-gold/20">
@@ -80,7 +80,7 @@ export const Features: React.FC = () => {
             </li>
              <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-sage mt-2 shrink-0"></div>
-              <span><strong>Ejercicios destacados:</strong> «La Cobra», «La Medusa», «El Árbol».</span>
+              <span><strong>Ejercicios destacados:</strong> "La Cobra", "La Medusa", "El Árbol".</span>
             </li>
           </ul>
           <div className="bg-sage-light p-3 rounded-lg text-sm text-sage font-semibold border border-sage/20">
@@ -106,7 +106,7 @@ export const Features: React.FC = () => {
             </li>
              <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-navy mt-2 shrink-0"></div>
-              <span><strong>Ejercicios destacados:</strong> «La Velita», «El Globo», «Respiración nasal».</span>
+              <span><strong>Ejercicios destacados:</strong> "La Velita", "El Globo", "Respiración nasal".</span>
             </li>
           </ul>
            <div className="bg-navy/5 p-3 rounded-lg text-sm text-navy font-semibold border border-navy/10">
@@ -131,7 +131,7 @@ export const Features: React.FC = () => {
           <ul className="space-y-3 text-navy/80 mb-4 pl-1 relative z-10">
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-navy mt-2 shrink-0"></div>
-              <span><strong>Grafomotricidad:</strong> «Dibujo con ambas manos» (¡sincroniza los hemisferios!).</span>
+              <span><strong>Grafomotricidad:</strong> Dibujo con ambas manos (¡sincroniza los hemisferios!).</span>
             </li>
             <li className="flex gap-3 text-sm items-start">
               <div className="w-1.5 h-1.5 rounded-full bg-navy mt-2 shrink-0"></div>

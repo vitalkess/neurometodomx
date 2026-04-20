@@ -24,7 +24,7 @@ export const Gallery: React.FC = () => {
     <section className="py-12 bg-white max-w-lg mx-auto overflow-hidden border-t border-gold/10">
       <div className="px-4 mb-6">
         <h2 className="text-2xl font-bold text-navy mb-2">Mira cómo son las actividades</h2>
-        <p className="text-navy/60 italic font-medium">«¡Mamá, otra vez!» — la frase que escucharás en lugar de «¿Puedo el teléfono?»</p>
+        <p className="text-navy/60 italic font-medium">"¡Una vez más, mamá!" — la frase que oirás en lugar de "¿Puedo jugar con el teléfono?"</p>
       </div>
 
       <div className="px-4 mb-8">
