@@ -8,23 +8,8 @@ export const config = {
 const SP_CLIENT_ID = 'sp_id_cb7103ee1b39a4e7e6409a97c69c4e8b';
 const SP_CLIENT_SECRET = 'sp_sk_cee022063fb75ff1dd6a1e09bd959d39';
 
-async function getSPToken() {
-  const tokenRes = await fetch('https://api.sendpulse.com/oauth/access_token', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      grant_type: 'client_credentials',
-      client_id: SP_CLIENT_ID,
-      client_secret: SP_CLIENT_SECRET,
-    }),
-  });
-  const { access_token } = await tokenRes.json();
-  return access_token;
-}
-
-async function sendPurchaseEmail(email, name) {
+async function sendPurchaseEmail_DISABLED(email, name) {
   try {
-    const token = await getSPToken();
     const firstName = name && name !== '—' ? name.split(' ')[0] : 'amiga';
 
     const html = `
@@ -207,11 +192,6 @@ export default async function handler(req, res) {
       `📧 ${email}`;
 
     await sendTelegram(message);
-
-    // ===== Email після покупки =====
-    if (email && email !== '—') {
-      await sendPurchaseEmail(email, name);
-    }
 
     // ===== SendPulse =====
     if (email && email !== '—') {
