@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 120">
+  <!-- Bizum Symbol -->
+  <!-- Top circle -->
+  <circle cx="52" cy="18" r="18" fill="#00C2BE"/>
+  <!-- Upper diagonal bar -->
+  <rect x="28" y="28" width="20" height="52" rx="10" fill="#00C2BE" transform="rotate(-38 38 54)"/>
+  <!-- Lower diagonal bar -->
+  <rect x="60" y="14" width="20" height="52" rx="10" fill="#00C2BE" transform="rotate(-38 70 40)"/>
+  <!-- Bottom circle -->
+  <circle cx="86" cy="102" r="15" fill="#00C2BE"/>
+  <!-- bizum text: b -->
+  <text x="116" y="90"
+        font-family="'Arial Rounded MT Bold','Nunito','Trebuchet MS',sans-serif"
+        font-size="72"
+        font-weight="800"
+        fill="#00C2BE"
+        letter-spacing="-1">bizum</text>
+</svg>
